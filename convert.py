@@ -4,9 +4,9 @@ import pandas as pd
 pcap_file = 'pcap_file.pcap'
 capture = pyshark.FileCapture(pcap_file)
 
-# Extract packet information
 packet_data = []
 for packet in capture:
+    # display only first 1000 rows
     # if(int(packet.number) > 1000):
     #     break
     print(packet.number)
