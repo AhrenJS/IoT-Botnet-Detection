@@ -1,11 +1,4 @@
-#separator \x09
-#set_separator,,
-#empty_field,(empty)
-#unset_field,-
-#path,conn
-#open,2019-10-18-15-06-44
-#fields,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,tunnel_parents   label   detailed-label
-#types,time,string,addr,port,addr,port,enum,string,interval,count,count,string,bool,bool,count,string,count,count,count,count,set[string]   string   string
+timestamp,uid,src_ip,src_port,dest_ip,dest_port,protocol,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,label
 1538478769.600293,CSQG794riQ4XnzTxP2,192.168.100.103,37082,192.168.100.1,53,udp,dns,5.005151,78,0,S0,-,-,0,D,2,134,0,0,-   Benign   -
 1538478779.610847,COTbdG2BhtGBlmf6r,192.168.100.103,34486,192.168.100.1,53,udp,dns,0.007243,90,90,SF,-,-,0,Dd,2,146,2,146,-   Benign   -
 1538478789.630642,CP48WJ2HOnLuGtr5kb,192.168.100.103,37601,192.168.100.1,53,udp,dns,0.002250,90,90,SF,-,-,0,Dd,2,146,2,146,-   Benign   -

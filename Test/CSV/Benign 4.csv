@@ -1,11 +1,4 @@
-#separator \x09
-#set_separator,,
-#empty_field,(empty)
-#unset_field,-
-#path,conn
-#open,2019-12-05-15-46-36
-#fields,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,tunnel_parents   label   detailed-label
-#types,time,string,addr,port,addr,port,enum,string,interval,count,count,string,bool,bool,count,string,count,count,count,count,set[string]   string   string
+timestamp,uid,src_ip,src_port,dest_ip,dest_port,protocol,service,duration,orig_bytes,resp_bytes,conn_state,local_orig,local_resp,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,label
 1540469302.538640,CGm6jB4dXK71ZDWUDh,192.168.1.132,58687,216.239.35.4,123,udp,-,0.114184,48,48,SF,-,-,0,Dd,1,76,1,76,-   benign   -
 1540469197.400159,CnaDAG3n5r8eiG4su2,192.168.1.132,1900,239.255.255.250,1900,udp,-,160.367579,7536,0,S0,-,-,0,D,24,8208,0,0,-   benign   -
 1540469385.734089,CUrxU238nt0m6yTgKf,192.168.1.132,32893,216.239.35.8,123,udp,-,0.016986,48,48,SF,-,-,0,Dd,1,76,1,76,-   benign   -
