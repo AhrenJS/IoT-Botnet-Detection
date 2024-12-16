@@ -10,8 +10,6 @@ This repository contains the source code for an **Artificial Neural Network (ANN
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Technologies
 The following technologies are used in this project:
