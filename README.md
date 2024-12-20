@@ -49,13 +49,13 @@ The model uses a **Sequential Neural Network** with the following layers:
 - **Output Layer**: A softmax layer with three outputs corresponding to the three classes: **Benign**, **Torii**, and **Mirai**.
 
 ## Results
-The model achieved **perfect classification performance** across all classes:
-- **Precision (Benign)**: 1.00
-- **Precision (Torii)**: 1.00
-- **Precision (Mirai)**: 1.00
-- **Recall (Benign)**: 1.00
-- **Recall (Torii)**: 1.00
-- **Recall (Mirai)**: 1.00
-- **F1-Score (Benign)**: 1.00
-- **F1-Score (Torii)**: 1.00
-- **F1-Score (Mirai)**: 1.00
+The model achieved **high classification performance** across all classes:
+- **Precision (Benign)**: 99.91%
+- **Precision (Torii)**: 99.98%
+- **Precision (Mirai)**: 99.99%
+- **Recall (Benign)**: 99.93%
+- **Recall (Torii)**: 99.91%
+- **Recall (Mirai)**: 99.98%
+- **F1-Score (Benign)**: 99.92%
+- **F1-Score (Torii)**: 99.94%
+- **F1-Score (Mirai)**: 99.99%
