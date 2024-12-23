@@ -1,7 +1,7 @@
 # IoT Botnet Detection
 
 ## Overview
-This repository contains the source code for an **Artificial Neural Network (ANN)** model designed to detect botnet activity within Internet of Things (IoT) devices. The model is trained on network traffic data and classifies IoT traffic as benign or malicious, detecting attacks such as **Mirai** and **Torii** botnets.
+This repository contains the source code for an **Artificial Neural Network (ANN)** model designed to detect botnet activity within Internet of Things (IoT) devices. The model is trained on network traffic data and classifies IoT traffic as benign or malicious, detecting attacks such as **Mirai** and **Torii** botnets. Future work will require testing with live traffic and larger datasets, which is limited in this research due to hardware limitations.
 
 ## Table of Contents
 - [Overview](#overview)
