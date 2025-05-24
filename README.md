@@ -42,7 +42,7 @@ python train.py
 Make sure the dataset is in the /data folder. The script will preprocess the data, train the model, and evaluate it.
 
 ## Model Architecture
-The model uses a **Sequential Neural Network** with the following layers:
+The model uses a **Artificial Neural Network** with the following layers:
 - **Input Layer**: Accepts preprocessed network traffic features.
 - **Hidden Layers**: Three dense layers with 512, 256, and 128 neurons, each with **ReLU** activation and **L2 regularization**.
 - **Dropout Layers**: Dropout (0.3) after each hidden layer to prevent overfitting.
