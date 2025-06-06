@@ -19,28 +19,6 @@ The following technologies are used in this project:
 - **pandas**, **NumPy**, and **matplotlib** for data handling and visualization
 - **imblearn** for resampling techniques (RandomOverSampler)
 
-## Installation
-To set up the project and run the model, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AhrenJS/IoT-Botnet-Detection.git
-   cd IoT-Botnet-Detection
-2. Create and activate a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use venv\Scripts\activate
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-## Usage
-After installation, you can train and evaluate the model by running:
-```bash
-python train.py
-```
-Make sure the dataset is in the /data folder. The script will preprocess the data, train the model, and evaluate it.
-
 ## Model Architecture
 The model uses a **Artificial Neural Network** with the following layers:
 - **Input Layer**: Accepts preprocessed network traffic features.
